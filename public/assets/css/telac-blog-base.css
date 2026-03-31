@@ -61,6 +61,9 @@ span{
     font-size: 14px;
     white-space: nowrap; /* これを追加：改行を禁止する */
 }
+.smallfont{
+    font-size:13px;
+}
 
 @media screen and (max-width: 480px) {
     .title{
