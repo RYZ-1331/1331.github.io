@@ -1,7 +1,7 @@
 @charset "utf-8";
 .topblock {
-    background:#ffaaaa;
-    color:#000;
+    background:#EF7DB0;
+    color:#D83484;
 }
 .mainblock {
     background:#fff;
@@ -44,4 +44,22 @@
 /* 一番下の要素の下の線を太くする */
 .menublock:last-child {
     border-bottom-width: 2px;
+}
+span{
+    display:flex;
+}
+.title{
+    margin-left:30px;
+}
+.title , .date{
+    font-size:15px;
+    color:#000;
+    margin-top :18px;
+}
+
+@media screen and (max-width: 480px) {
+    .title{
+        margin-left:20px;
+        /*font-size:10px;*/
+    }
 }
