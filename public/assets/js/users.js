@@ -1,4 +1,10 @@
 const Users = [
+    //{key : "", bd : "", name : ""},
+    {key : "0313&k0313", bd : "0313", name : "katsuhiko"},
+    {key : "0614&c0614", bd : "0614", name : "chiaki"},
+    {key : "0314&r0314", bd : "0314", name : "rinka"},
+    {key : "0314&o0314", bd : "0314", name : "ouka"},
+    
     //admin
     {key : "0000&a0000", bd : "0000", name : "admin"},
     {key : "0331&r0331", bd : "0331", name : "ryuzo"},
