@@ -1,64 +1,99 @@
 @charset "utf-8";
 .menubutton{
-    width:100px;
     height:100px;
     font-size:20px;
     border-radius: 20px;
     border: none;
     background:#fcbf00;
     color:#000;
+    font-weight:bolder;
 }
 .menubutton-TD{
     /*base*/
-    width:100px;
     height:100px;
     font-size:20px;
     border-radius: 20px;
     border:none;
     /*option*/
     background:#EF7DB0;
-    color:#D83484;
+    color:#000;
+    font-weight:bolder;
+
+}
+.menubutton-KD{
+    /*base*/
+    height:100px;
+    font-size:20px;
+    border-radius: 20px;
+    border:none;
+    /*option*/
+    background:#6bd42f;
+    color:#000;
+    font-weight:bolder;
 
 }
 .menubutton:hover{
-    width:100px;
-    height:100px;
-    font-size:20px;
-    border-radius: 20px;
-    border: none;
     background:#ffd952;
 }
 .menubutton-TD:hover{
-    /*base*/
-    width:100px;
-    height:100px;
-    font-size:20px;
-    border-radius: 20px;
-    border:none;
-    /*option*/
     background:#ffe0e0;
-
+}
+.menubutton-KD:hover{
+    background:#8bf44f;
 }
 .menubutton:active{
+    background:#d4a000;
+}
+.menubutton-TD:active{
+    background:#e08e8e;
+}
+.menubutton-KD:active{
+    background:#4bb40f;
+}
+
+.custombutton{
     width:100px;
     height:100px;
     font-size:20px;
     border-radius: 20px;
     border: none;
-    background:#d4a000;
+    background:#ccc;
+    color:#000;
 }
-.menubutton-TD:active{
-    /*base*/
-    width:100px;
-    height:100px;
-    font-size:20px;
-    border-radius: 20px;
-    border:none;
-    /*option*/
-    background:#e08e8e;
-
+.custombutton:hover{
+    background:#ddd;
+    color:#000;
 }
-.menubutton, .menubutton-TD {
-    margin-top: 0px;
+.custombutton:active{
+    background:#aaa;
+    color:#000;
+}
+.menubutton, .menubutton-TD , .custombutton , .menubutton-KD {
+    margin-top: 5px;
     vertical-align: top; /* これを追加！ */
+}
+.menubutton-area {
+    background:#eee;
+    width:207px;
+    height:auto;
+    margin-top:30px;
+    padding:10px;
+    border-radius: 30px;
+    padding-bottom:15px;
+}
+.custombutton-area {
+    background:#aaa;
+    width:207px;
+    height:auto;
+    margin-top:30px;
+    padding:10px;
+    border-radius: 30px;
+    padding-bottom:15px;
+}
+.widebutton{
+    width:200px;
+}
+.customad{
+    background:#0000ff;
+    color:#fff;
 }

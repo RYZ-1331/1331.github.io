@@ -1,7 +1,7 @@
 @charset "utf-8";
 .topblock {
-    background:#EF7DB0;
-    color:#D83484;
+    background:#6bd42f;
+    color:#835500;
 }
 .mainblock {
     background:#fff;
@@ -67,6 +67,9 @@ span{
 img{
     width: 305px;
     height: auto;
+}
+.customad{
+    background: #0000ff;
 }
 
 @media screen and (max-width: 480px) {

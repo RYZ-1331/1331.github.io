@@ -11,7 +11,7 @@ const Users = [
     {key : "0108&k0108", bd : "0108", name : "koto"},
     {key : "0117&n0117", bd : "0117", name : "natsuna"},
     {key : "0223&k0223", bd : "0223", name : "kazuki"},
-    {key : "0309&h0309", bd : "0309",name : "hatsuki"},
+    {key : "0309&h0309", bd : "0309", name : "hatsuki"},
     {key : "0317&s0317", bd : "0317", name : "sakura"},
     {key : "0318&s0318", bd : "0318", name : "sakura"},
     {key : "0327&s0327", bd : "0327", name : "sora"},
